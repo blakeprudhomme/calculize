@@ -1,24 +1,21 @@
-# README
+# Calculize
+A simple calculator that operators `+ - * /` on any number of integer arguments.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+---
 
-Things you may want to cover:
+Ruby Version: 2.5.1  
+Rails Version: 5.2.3
 
-* Ruby version
+### Running locally
+```
+git clone git@github.com:blakeprudhomme/calculize.git
+cd calculize
+bundle 
+rails db:setup
+rails server
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running tests
+```
+rails test
+```
