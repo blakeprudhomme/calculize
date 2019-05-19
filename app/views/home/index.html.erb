@@ -1,0 +1,13 @@
+<%= form_with url: calculate_path do |f| %>
+  <div>
+    <%= f.label :data, "Calculator" %>
+  </div>
+  <div>
+    <%= f.text_field :data, required: true %>
+  </div>
+  <div>
+    <%= f.submit "Calculate" %>
+  </div>
+<% end %>
+
+<div id="answer"></div>
