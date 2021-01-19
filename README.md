@@ -1,16 +1,20 @@
 # Calculize
-A simple calculator that operators `+ - * /` on any number of integer arguments.
+A recursive calculator that operates `+ - * /` on any number of integer arguments represented as a string.
+
+```
+"10*10/5+34-5+25/5".calculize => 54
+```
 
 ---
 
-Ruby Version: 2.5.1  
-Rails Version: 5.2.3
+Ruby Version: 3.0.0  
+Rails Version: 6.1.1
 
 ### Running locally
 ```
 git clone git@github.com:blakeprudhomme/calculize.git
 cd calculize
-bundle 
+bundle
 rails db:setup
 rails server
 ```
